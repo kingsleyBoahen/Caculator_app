@@ -10,8 +10,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String output = '0';
 
-  String temp =
-      '0'; //psuedo output, we keep this in memory and later assign it as num1, num2, or as decimal value.
+  String temp = '0';
+  //psuedo output, we keep this in memory and later assign it as num1, num2, or as decimal value.
   double num1 = 0;
   double num2 = 0;
   String operand = "";
