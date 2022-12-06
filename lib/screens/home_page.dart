@@ -21,10 +21,10 @@ class _HomePageState extends State<HomePage> {
     return Expanded(
       flex: flexValue,
       child: Container(
-        margin: EdgeInsets.all(10),
+        margin: const EdgeInsets.all(10),
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-            primary: Color.fromRGBO(38, 38, 38, 1),
+            primary: const Color.fromRGBO(38, 38, 38, 1),
           ),
           onPressed: () {
             // whenever the button is pressed the state changes, so we put a setState() function and inside that we put all the changes. so whenever changes happen, widget is rebuilt and change is displayed.
